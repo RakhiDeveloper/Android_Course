@@ -27,6 +27,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
+                        app:cardBackgroundColor="@color/white"
                         android:layout_height="wrap_content">
 
                         <TextView
@@ -71,6 +72,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/TextView"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -111,6 +113,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/editText"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -168,6 +171,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/button"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -208,6 +212,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/tooggle"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -266,6 +271,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/switchbtn"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -306,6 +312,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/imgaebtn"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -364,6 +371,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/spinner"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -404,6 +412,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/radio"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -462,6 +471,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/checkbox"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -502,6 +512,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/seekbar"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -560,6 +571,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/progressbar"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -601,6 +613,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/textswitcher"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -659,6 +672,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/ScrollView"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -700,6 +714,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/imageswitcher"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -774,6 +789,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/simpletoast"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -796,7 +812,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/simpletoast" />
+                                                    android:src="@drawable/simple" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -815,6 +831,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/colortoast"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -877,6 +894,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/customtoast"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -899,7 +917,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/simpletoast" />
+                                                    android:src="@drawable/custom" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -949,6 +967,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/explicitintent"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -971,7 +990,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/expli" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -990,6 +1009,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/implicitintent"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1012,7 +1032,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/impli" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1048,6 +1068,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/valuepassactivity"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1070,7 +1091,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/activity" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1089,6 +1110,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/rateus"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1111,7 +1133,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/rate" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1145,8 +1167,9 @@
                                     android:orientation="horizontal">
 
                                     <androidx.cardview.widget.CardView
-                                        android:id="@+id/shareemail"
+                                        android:id="@+id/share"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1169,13 +1192,13 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/share" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
-                                                android:text="Share Email"
+                                                android:text="Share"
                                                 android:textAlignment="center"
                                                 android:textColor="@color/colorPrimary"
                                                 android:textSize="16sp"
@@ -1188,6 +1211,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/whatsapp"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1210,7 +1234,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/whatsapp" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1260,6 +1284,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/textinputedittext"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1282,7 +1307,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/activity" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1301,6 +1326,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/floatingbutton"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1323,7 +1349,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/fbtn" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1359,6 +1385,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/autocompletetexstview"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1381,7 +1408,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/txtv" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1400,6 +1427,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/buttonnavigation"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1422,7 +1450,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/navig" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1462,6 +1490,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/navigationdrawer"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1484,7 +1513,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/simpletoast" />
+                                                    android:src="@drawable/drawar" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1534,6 +1563,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/popupmenu"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1556,7 +1586,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/pop" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1575,6 +1605,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/optionmenu"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1597,7 +1628,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/opnmenu" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1637,6 +1668,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/contextmenu"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1659,7 +1691,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/simpletoast" />
+                                                    android:src="@drawable/drawar" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1709,6 +1741,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/listview"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1731,7 +1764,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/listv" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1750,6 +1783,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/searchViewontoolbar"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1772,7 +1806,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/searchv" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1808,6 +1842,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/customlistview"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1830,7 +1865,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/listcsm" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1849,6 +1884,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/gridview"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1871,7 +1907,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/gradv" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1911,6 +1947,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/searchview"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1933,7 +1970,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/searchv" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -1952,6 +1989,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/webview"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -1974,7 +2012,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/webview" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2025,6 +2063,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/phonecall"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2047,7 +2086,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/call" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2066,6 +2105,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/countycodepicker"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2088,7 +2128,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/country" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2129,6 +2169,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/checkinternet"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2151,7 +2192,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/network" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2170,6 +2211,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/vibrate"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2192,7 +2234,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/vibrate" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2233,6 +2275,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/brightness"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2255,7 +2298,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/brightness" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2274,6 +2317,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/flashlight"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2296,7 +2340,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/flash" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2337,6 +2381,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/battryinfo"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2359,7 +2404,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/battry" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2378,6 +2423,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/phoneinfo"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2400,7 +2446,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/phoneinfo" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2456,6 +2502,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/cloack"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2478,7 +2525,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/clock" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2497,6 +2544,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/timepicker"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2519,7 +2567,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/picker" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2560,6 +2608,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/datepicker"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2582,7 +2631,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/clender" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2601,6 +2650,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/chronometer"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2623,7 +2673,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/chronometer" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2678,6 +2728,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/move"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2700,7 +2751,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/move" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2719,6 +2770,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/fade"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2741,7 +2793,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/fad" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2782,6 +2834,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/zoom"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2804,7 +2857,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/zoom" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2823,6 +2876,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/rotate"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2845,7 +2899,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/rotate" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2886,6 +2940,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/Bounce"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2908,7 +2963,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/bounce" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2927,6 +2982,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/Slide"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -2949,7 +3005,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/slide" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -2990,6 +3046,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/blink"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3031,6 +3088,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/textmarquee"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3053,7 +3111,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/marquee" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3093,6 +3151,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/interpolator"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3170,6 +3229,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/takephoto"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3192,7 +3252,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/photoc" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3211,6 +3271,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/takevideo"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3233,7 +3294,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/video" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3274,6 +3335,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/texttospeech"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3296,7 +3358,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/speech" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3315,6 +3377,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/speechtotext"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3337,7 +3400,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/speech" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3392,6 +3455,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/simplealert"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3414,7 +3478,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/alert" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3433,6 +3497,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/simplenotification"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3455,7 +3520,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/noti" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3495,6 +3560,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/customalert"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3517,7 +3583,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/simpletoast" />
+                                                    android:src="@drawable/custom" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3572,6 +3638,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/insert"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3594,7 +3661,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/insert" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3613,6 +3680,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/read"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3635,7 +3703,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/read" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3676,6 +3744,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/update"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3698,7 +3767,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/scrollv" />
+                                                    android:src="@drawable/update" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView
@@ -3717,6 +3786,7 @@
                                     <androidx.cardview.widget.CardView
                                         android:id="@+id/delete"
                                         android:layout_width="150dp"
+                                        app:cardBackgroundColor="@color/white"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
                                         app:cardCornerRadius="20dp">
@@ -3739,7 +3809,7 @@
                                                     android:layout_height="match_parent"
                                                     android:layout_margin="10dp"
                                                     android:padding="10dp"
-                                                    android:src="@drawable/imageswitcher" />
+                                                    android:src="@drawable/move" />
                                             </androidx.cardview.widget.CardView>
 
                                             <TextView

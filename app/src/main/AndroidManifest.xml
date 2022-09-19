@@ -10,22 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidCourse">
         <activity
+            android:name=".TextView.TextViewMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Splash_screen"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
